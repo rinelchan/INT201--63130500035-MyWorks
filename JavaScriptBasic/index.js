@@ -119,4 +119,27 @@ for (let i =1; i <= 12; i++) {
 }
 
 
+
+
+
 // [Functions (ฟังก์ชั่น)]
+let length = 2;
+let width = 2;
+let height = 3;
+let baseArea = length * width;
+let pyramidVolume = 1/3 * baseArea * height;
+console.log(pyramidVolume);
+
+// function ชื่อฟังก์ชัน(parameter1, ...) {คำสั่ง}
+function getPyramidArea(length, width, height) {
+    let baseArea = length * width;
+    let pyramidVolume = 1/3 * baseArea * height;
+    // console.log(pyramidVolume);
+    return pyramidVolume;
+}
+
+// getPyramidArea(2, 2, 3);
+// getPyramidArea(4, 4, 3);
+let area1 =getPyramidArea(2, 2, 3);
+let area2 =getPyramidArea(4, 4, 3);
+console.log('Area 1 = ' + area1+ ',Area 2 = ' + area2 );
