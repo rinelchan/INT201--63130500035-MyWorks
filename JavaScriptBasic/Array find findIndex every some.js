@@ -6,6 +6,8 @@ let failedScore = scores.find((score) => {
 
 console.log(failedScore);     // 48
 
+
+
 // find index ถ้าหาข้อมูลไม่เจอ --> -1
 let scores = [82, 75, 48, 64, 36];
 let failedScore = scores.findIndex((score) => {
@@ -14,6 +16,8 @@ let failedScore = scores.findIndex((score) => {
 
 console.log(failedScore);     // 2 (ตำแหน่งที่ 2)
 
+
+
 //every ถ้าผิดตัวเดียว --> false
 let scores = [82, 75, 48, 64, 36];
 let everyonePassed = scores.every((score) => {
@@ -21,6 +25,8 @@ let everyonePassed = scores.every((score) => {
 })
 
 console.log(everyonePassed);  // false
+
+
 
 // some ถ้าถูกตัวเดียว --> true
 let scores = [82, 75, 48, 64, 36];
