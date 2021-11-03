@@ -10,7 +10,7 @@ function checkAnswer(event) {
         }
     });
     if (tooLong) {
-        errorMessage.style .display = 'block';
+        errorMessage.style.display = 'block';
         event.preventDefault();
     }
 }
