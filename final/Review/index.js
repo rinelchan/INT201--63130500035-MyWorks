@@ -128,10 +128,3 @@ function showMessage() {
 
 // ใส่คำสั่ง addEventListener (เหตุการณ์, คำสั่ง); ให้ discountButton
 discountButton.addEventListener('click', showMessage);
-
-
-
-
-
-
-
