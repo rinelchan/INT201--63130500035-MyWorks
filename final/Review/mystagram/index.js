@@ -1,6 +1,10 @@
-﻿function appendImageElem(keyword, index) {
-  const imgElem = document.createElement('img');
-  imgElem.src = `https://source.unsplash.com/400x225/?${keyword}&sig=${index}`;
+﻿// ค้นหารูปภาพตาม keyword
+function appendImageElem(keyword, index) {
+  // สร้าง element img
+  const imgElem = document.createElement('img');  
+  // เข้าถึง property ของ element     ขนาดรูป
+  imgElem.src = `https://source.unsplash.com/400x225/?${keyword}&sig=${index}`;  
+
 
   const galleryElem = document.querySelector('.gallery');
   galleryElem.appendChild(imgElem);
@@ -23,6 +27,7 @@ function searchPhotos(event) {
   }
 }
 
+// สร้างเพื่อครอบตัว code เพื่อให้เป้นระเบียบ
 function run() {
   const inputElem = document.querySelector('input');
   inputElem.addEventListener('keydown', searchPhotos);
@@ -39,4 +44,3 @@ document.getElementById('email');
 document.createElement('div');
 // ลูกของ element 
 document.appendChild(element);
-111111111111
