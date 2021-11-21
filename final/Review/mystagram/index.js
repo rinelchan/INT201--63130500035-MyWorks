@@ -1,4 +1,4 @@
-function appendImageElem(keyword, index) {
+﻿function appendImageElem(keyword, index) {
   const imgElem = document.createElement('img');
   imgElem.src = `https://source.unsplash.com/400x225/?${keyword}&sig=${index}`;
 
@@ -31,11 +31,12 @@ function run() {
 run();
 
 
-// ?????? element ??????????????? property
+// ดึงตัว element เพื่อใช้อ่านค่า property
 document.querySelector('input');
-// ?????? element id ??????????????? property
+// ดึงตัว element id เพื่อใช้อ่านค่า property
 document.getElementById('email');
-// ????? element ???????
+// สร้าง element ตัวใหม่
 document.createElement('div');
-// ?????? element 
+// ลูกของ element 
 document.appendChild(element);
+111111111111
